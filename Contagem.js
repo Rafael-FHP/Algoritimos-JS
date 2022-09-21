@@ -5,11 +5,11 @@ var cont2 = 0;
 for(let i = 0;i<N;i++) {
     var X = parseInt(prompt("Digite um número"))
     if(X%1===0) {
-        contador++;
+        cont++;
     } if(X>=1) {
-        contador++;
+        cont++;
     } if(X<=N) {
-        contador++;
+        cont++;
     }
     if(contador==3) {
         cont2++;
